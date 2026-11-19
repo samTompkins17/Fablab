@@ -1,0 +1,21 @@
+{
+  "name": "plateforme-fablab",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "description": "Monorepo : `apps/api` (Node.js), `apps/web` (React), `packages/shared` (types et validations communs), `infra`, `docs`.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
